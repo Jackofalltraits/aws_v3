@@ -32,7 +32,7 @@ function Navigation() {
 
             <Nav>
               <div className="contactbutt">
-              <a href='contactus'>
+              <a href='contact'>
                   <Button variant="light" style={{ width: "6.5rem", height: "2.8rem" }}>Contact Us</Button>
                 </a>
               </div>
@@ -58,7 +58,7 @@ function Navigation() {
 
             <Nav>
               <div className="face">
-              <a href="https://www.facebook.com/NatureKnitter" roundedCircle>
+              <a href="https://www.facebook.com/NatureKnitter" target="_blank" roundedCircle>
                 <img
                   alt=""
                   style={{ width: "3rem", height: "2.8rem" }}
@@ -66,7 +66,7 @@ function Navigation() {
                 ></img></a>
               </div>
               <div className="insta">
-                <a href="https://www.instagram.com/nature.knitterr/?hl=en">
+                <a href="https://www.instagram.com/nature.knitterr/?hl=en" target="_blank">
                 <img
                   alt=""
                   style={{ width: "3rem", height: "2.8rem" }}
