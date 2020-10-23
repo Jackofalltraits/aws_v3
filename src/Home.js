@@ -3,8 +3,8 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel, Row } from "react-bootstrap";
 import Scarf1 from "./Assets/scarfa.jpg";
-import Scarf2 from "./Assets/scarf2.jpg";
-import Scarf3 from "./Assets/scarf3.jpg";
+import Scarf2 from "./Assets/scarfb.jpg";
+import Scarf3 from "./Assets/scarfc.jpg";
 import Logo from "./Assets/nklogo.png";
 
 import {Button} from "react-bootstrap";
