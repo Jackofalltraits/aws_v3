@@ -3,7 +3,7 @@ import './App.css';
 import { Row } from "react-bootstrap";
 import {  } from "react-router-dom";
 import Navigation from './Navigation';
-import Scarf1 from "./Assets/scarf1.jpg";
+import Scarf1 from "./Assets/scarfa.jpg";
 import Coaster5 from './Assets/coaster5.jpg';
 import Blanket4 from './Assets/blanket4.jpg';
 
