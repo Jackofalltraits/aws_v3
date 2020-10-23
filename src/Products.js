@@ -11,7 +11,7 @@ import Beanies from "./Assets/beanies.jpg";
 import Blankets from "./Assets/blankets.jpg";
 import Magnets from "./Assets/magnet.jpg";
 import Khandi from "./Assets/khandi.jpg";
-import Coasters from "./Assets/coasters.jpeg";
+import Coasters from "./Assets/coasters.jpg";
 import Jewelry from "./Assets/jewelry.jpg";
 
 

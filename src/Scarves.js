@@ -5,7 +5,7 @@ import {  } from "react-router-dom";
 import Navigation from './Navigation';
 
 import OrangeScarf from './Assets/orangescarf.jpg'
-import BlackScarf from './Assets/blackscarf.jpeg'
+import BlackScarf from './Assets/blackscarf.jpg'
 import BrownScarf from './Assets/brownscarf.jpg'
 import BlueScarf from './Assets/bluescarf.jpg'
 import GreyScarf from './Assets/greyscarf.jpg'

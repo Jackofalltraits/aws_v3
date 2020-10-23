@@ -5,7 +5,7 @@ import {  } from "react-router-dom";
 import Navigation from './Navigation';
 
 import Magnet1 from './Assets/magnet1.jpg'
-import Magnet2 from './Assets/magnet2.webp'
+import Magnet2 from './Assets/magnet2.jpg'
 import Magnet3 from './Assets/magnet3.jpg'
 import Magnet4 from './Assets/magnet4.jpg'
 
