@@ -11,7 +11,7 @@ function Customs(){
 const [customShow, setCustomShow] = useState(false);
 return(
     <div>
-<Button variant="outline-success" size="sm" style={{ width: "100%", height: "2%" }}
+<Button variant="outline-success" size="sm" style={{ width: "120%", height: "2%" }}
  onClick={() => setCustomShow(true)} className="checkbutton" >Checkout</Button>{' '}
 
 
