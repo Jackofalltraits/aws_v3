@@ -36,6 +36,7 @@ function App() {
      <Route path='/checkout' exact component={Checkout}/>
 
      </BrowserRouter>
+    
     </div>
   );
 }

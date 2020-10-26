@@ -10,22 +10,15 @@ import Logo from "./Assets/nklogo.png";
 import {Button} from "react-bootstrap";
 import { } from "react-router-dom";
 import Navigation from './Navigation';
+import Navigation2 from './Navigation2'
 function Home() {
   return (
     <div className="home">
     <Navigation/>
+    <Navigation2/>
 
 <Row>
-<div className="homespace">    
-    <img alt="" style={{ width: "32rem", height: "15rem" }} src={Logo} ></img>
-    </div>
-    <div className="homeproducts">
-    <a href="Products">
-    <Button variant="outline-success" size="sm" style={{ width: "12rem", height: "2rem" }}>
-      <b>Shop Products</b>
-    </Button>
-    </a>
-    </div>
+   
     </Row>
   
       <div className="caro">

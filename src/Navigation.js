@@ -1,91 +1,45 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import {  Nav, Navbar, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Logo from "./Assets/nklogo.png";
 import Facebook from "./Assets/facebook.png";
 import Insta from "./Assets/insta.png";
-//import Patrion from "./Assets/patrion.png";
-
+import { Form, FormControl, Nav, Navbar, Button } from "react-bootstrap";
 
 function Navigation() {
   return (
-    <div>
-      <div id="nav">
-        <BrowserRouter>
-          <Navbar className="color-nav" variant="light">
-            <a href="/">
-              <img
+    <div id="nav">
+      <Navbar bg="light" variant="light">
+        <Nav className="mr-auto">
+        <div className="facebook">
+        <a href="https://www.facebook.com/NatureKnitter" target="_blank" roundedCircle>
+            <img alt="" style={{width:"30px"}}  src={Facebook} />
+</a>        
+</div>
+        <a href="https://www.instagram.com/nature.knitterr/?hl=en" target="_blank">
+            <img
+              alt=""
+              style={{width:"30px"}}
+              src={Insta}
+              ></img>
+              </a>
+          
+        </Nav>
+          <Link to={'/'}>
+        <Nav>
+        
+        <img
                 alt=""
-                style={{ width: "6rem", height: "2.8rem" }}
+                style={{ width: "30%"}}
                 src={Logo}
               ></img>
-            </a>
-            <Nav>
-              <div className="prodbutt">
-                <a href='products'>
-                  <Button variant="light"  style={{ width: "6rem", height: "2.8rem" }}>Products</Button>
-                  </a>
-              </div>
-            </Nav>
-            <div class="divider" />
-
-            <Nav>
-              <div className="contactbutt">
-              <a href='contact'>
-                  <Button variant="light" style={{ width: "6.5rem", height: "2.8rem" }}>Contact Us</Button>
-                </a>
-              </div>
-            </Nav>
-
-            <Nav>
-              <div className="aboutbutt">
-              <a href='about'>
-                  <Button variant="light" style={{ width: "6rem", height: "2.8rem" }}>About</Button>
-                </a>
-              </div>
-            </Nav>
-
-            <Nav>
-            <div className="cartbutt">
-              <a href='checkout'>
-          <Button variant="light" style={{ width: "7.8rem" , height: "2.8rem"}}>
-                Checkout 
-                </Button>
-                </a>
-              </div>     
-            </Nav>
-
-            <Nav>
-              <div className="face">
-              <a href="https://www.facebook.com/NatureKnitter" target="_blank" roundedCircle>
-                <img
-                  alt=""
-                  style={{ width: "3rem", height: "2.8rem" }}
-                  src={Facebook}
-                ></img></a>
-              </div>
-              <div className="insta">
-                <a href="https://www.instagram.com/nature.knitterr/?hl=en" target="_blank">
-                <img
-                  alt=""
-                  style={{ width: "3rem", height: "2.8rem" }}
-                  src={Insta}
-                ></img></a>
-              </div>
-              {/* <div className="patrion">
-                <a href="https://www.patreon.com/?utm_source=mi_google&utm_campaign=prospecting_brand_Brand_LAL_Patreon_Nameplate_Exact&utm_term=patreon&utm_medium=cpc&utm_content=467371055949&gclid=CjwKCAjw2dD7BRASEiwAWCtCb0P-LLr6_JGnhIkkr6a4I-ev0rfiYmfm2HImt1DvOagotGxf4bhH2RoCXtwQAvD_BwE">
-                <img
-                  alt=""
-                  style={{ width: "4.6rem", height: "2.8rem" }}
-                  src={Patrion}
-                ></img>
-                </a>
-              </div> */}
-            </Nav>
-          </Navbar>
-        </BrowserRouter>
-      </div>
+              </Nav>
+              </Link>
+        <Form inline>
+          <Link to={'contact'} className="contactnav">Contact Us</Link>
+          <Link to={'about'} className="aboutnav">About</Link>
+        </Form>
+      </Navbar>
     </div>
   );
 }
