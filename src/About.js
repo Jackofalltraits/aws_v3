@@ -3,6 +3,7 @@ import './App.css';
 import { Row } from "react-bootstrap";
 import {  } from "react-router-dom";
 import Navigation from './Navigation';
+import Navigation2 from './Navigation2'
 import Scarf1 from "./Assets/scarfa.jpg";
 import Coaster5 from './Assets/coaster5.jpg';
 import Blanket4 from './Assets/blanket4.jpg';
@@ -11,6 +12,7 @@ function About() {
   return (
     <div>
       <Navigation/>
+      <Navigation2/>
     <h1>this is the about page</h1> 
     <div className="abouttext"> 
     <h3>Nature Knitter wants to supply you with all your knit and craft needs. Every product we sell is made from hand! We have everyting from scarfs to blankets to beanies to even jewelry! </h3>       

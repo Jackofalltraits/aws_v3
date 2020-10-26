@@ -3,7 +3,7 @@ import './App.css';
 import { Row, Col, Button, Card } from "react-bootstrap";
 import {  } from "react-router-dom";
 import Navigation from './Navigation';
-
+import Navigation2 from './Navigation2'
 import Blanket1 from './Assets/blanket1.jpg'
 import Blanket2 from './Assets/blanket2.jpg'
 import Blanket3 from './Assets/blanket3.png'
@@ -14,6 +14,7 @@ function Blankets() {
   return (
     <div>
       <Navigation/>
+      <Navigation2/>
     <h1><b>Blankets</b></h1> 
 
 <Row>

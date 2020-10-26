@@ -3,7 +3,7 @@ import './App.css';
 import { Row, Col, Button, Card } from "react-bootstrap";
 import {  } from "react-router-dom";
 import Navigation from './Navigation';
-
+import Navigation2 from './Navigation2'
 import OrangeScarf from './Assets/orangescarf.jpg'
 import BlackScarf from './Assets/blackscarf.jpg'
 import BrownScarf from './Assets/brownscarf.jpg'
@@ -14,6 +14,7 @@ function Scarves() {
   return (
     <div>
       <Navigation/>
+      <Navigation2/>
     <h1><b>Scarves</b></h1> 
 
 <Row>

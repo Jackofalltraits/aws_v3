@@ -5,12 +5,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {Button} from "react-bootstrap";
 import { } from "react-router-dom";
 import Navigation from './Navigation';
+import Navigation2 from './Navigation2'
 function Home() {
   return (
     <div className="home">
     <Navigation/>
+    <Navigation2/>
 
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSedZmdASemQ_-xZlKebnW_aTgMwHdN8784eejI9Kxzr7VNF8A/viewform?embedded=true" width="640" height="1305" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+   
 
     </div>
   );

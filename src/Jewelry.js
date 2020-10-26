@@ -3,7 +3,7 @@ import './App.css';
 import { Row, Col, Button, Card } from "react-bootstrap";
 import {  } from "react-router-dom";
 import Navigation from './Navigation';
-
+import Navigation2 from './Navigation2'
 
 import Jewel1 from './Assets/jewel1.jpg'
 import Jewel3 from './Assets/jewel3.jpg'
@@ -13,6 +13,7 @@ function Jewelry() {
   return (
     <div>
       <Navigation/>
+      <Navigation2/>
     <h1><b>Jewelry</b></h1> 
 
 <Row>

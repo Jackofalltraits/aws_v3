@@ -3,7 +3,7 @@ import './App.css';
 import { Row, Col, Button, Card } from "react-bootstrap";
 import {  } from "react-router-dom";
 import Navigation from './Navigation';
-
+import Navigation2 from './Navigation2'
 import Kandi1 from './Assets/kandi1.jpg'
 import Kandi2 from './Assets/kandi2.jpg'
 import Kandi3 from './Assets/kandi3.jpg'
@@ -12,6 +12,7 @@ function Kandi() {
   return (
     <div>
       <Navigation/>
+      <Navigation2/>
     <h1><b>Rave Kandi</b></h1> 
 
 <Row>

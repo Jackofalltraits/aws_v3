@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Row, Card } from "react-bootstrap";
 import Navigation from './Navigation';
-
+import Navigation2 from './Navigation2'
 import Hat1 from './Assets/hat1.jpg'
 import Hat2 from './Assets/hat2.jpg'
 import Hat3 from './Assets/hat3.jpg'
@@ -12,6 +12,7 @@ function Beanies() {
   return (
     <div>
       <Navigation/>
+      <Navigation2/>
     <h1><b>Beanies</b></h1> 
 
 <Row>

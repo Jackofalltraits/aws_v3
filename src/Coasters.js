@@ -3,7 +3,7 @@ import './App.css';
 import { Row, Col, Button, Card } from "react-bootstrap";
 import {  } from "react-router-dom";
 import Navigation from './Navigation';
-
+import Navigation2 from './Navigation2'
 import Coaster1 from './Assets/coaster1.jpg'
 import Coaster2 from './Assets/coaster2.jpg'
 import Coaster3 from './Assets/coaster3.jpg'
@@ -16,6 +16,7 @@ function Coasters() {
   return (
     <div>
       <Navigation/>
+      <Navigation2/>
     <h1><b>Coasters</b></h1> 
 
 <Row>

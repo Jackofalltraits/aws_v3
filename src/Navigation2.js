@@ -5,6 +5,7 @@ import { Nav, Navbar, Button } from "react-bootstrap";
 import Logo from "./Assets/nklogo.png";
 import Facebook from "./Assets/facebook.png";
 import Insta from "./Assets/insta.png";
+import Customs from './Customs.js'
 //import Patrion from "./Assets/patrion.png";
 
 function Navigation2() {
@@ -27,16 +28,11 @@ function Navigation2() {
                 </div>
               </Link>
               <div className="checkbutton">
-              <Link to={"checkout"}>
-                <Button
-                  variant="outline-success"
-                  size="sm"
-                  style={{ width: "100%", height: "100%" }}
-                >
-                  <b>Checkout</b>
-                </Button>
-              </Link>
+             
+                <Customs/>
+              
                 </div>
+                
             </Nav>
               </div>
           </Navbar>

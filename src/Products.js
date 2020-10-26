@@ -4,7 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Card, Row} from "react-bootstrap";
 import { } from "react-router-dom";
 import Navigation from "./Navigation";
-import Customs from './Customs.js'
+import Navigation2 from './Navigation2'
+
 
 import Scarves from "./Assets/scarves.jpg";
 import Beanies from "./Assets/beanies.jpg";
@@ -19,6 +20,7 @@ function Products() {
   return (
     <div>
       <Navigation />
+      <Navigation2/>
         <div className="products">
       <Row>
           <div className="innerspace">
@@ -27,7 +29,7 @@ function Products() {
             </h1>
           </div>
              
-              <Customs/>
+             
         </Row>
 
         <div className="knits">
@@ -97,7 +99,7 @@ function Products() {
       <div className="lineHorizontal"></div>
 
       <div className="beeds">
-        <h1>Beeds</h1>
+        <h1>Beads</h1>
       </div>
 
       <Row>

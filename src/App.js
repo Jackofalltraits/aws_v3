@@ -33,7 +33,6 @@ function App() {
      <Route path='/jewelry' exact component={Jewelry}/>
      <Route path='/magnets' exact component={Magnets}/>
      <Route path='/coasters' exact component={Coasters}/>
-     <Route path='/checkout' exact component={Checkout}/>
 
      </BrowserRouter>
     

@@ -3,7 +3,7 @@ import './App.css';
 import { Row, Col, Button, Card } from "react-bootstrap";
 import {  } from "react-router-dom";
 import Navigation from './Navigation';
-
+import Navigation2 from './Navigation2'
 import Magnet1 from './Assets/magnet1.jpg'
 import Magnet2 from './Assets/magnet2.jpg'
 import Magnet3 from './Assets/magnet3.jpg'
@@ -13,6 +13,7 @@ function Magnets() {
   return (
     <div>
       <Navigation/>
+      <Navigation2/>
     <h1><b>Magnets</b></h1> 
 
 <Row>
